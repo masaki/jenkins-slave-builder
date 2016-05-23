@@ -1,0 +1,22 @@
+- slave:
+    name: sshslave1
+    description: SSH Slave Sample
+    executors: 5
+    remote_fs: /
+    labels:
+      - ssh
+      - slave
+    mode: normal
+    launcher:
+      type: SSH
+      host: 127.0.0.1
+      port: 22
+      private_key:
+      credentials_id: deadbeef-dead-beef-dead-beefdeadbeef
+      java_path:
+      jvm_options:
+      prefix_start_slave_cmd:
+      suffix_start_slave_cmd:
+      launch_timeout_seconds:
+      max_num_retries:
+      retry_wait_time:

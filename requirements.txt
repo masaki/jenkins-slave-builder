@@ -1,0 +1,4 @@
+PyYAML==3.11
+argparse==1.2.1
+cliff==1.6.1
+requests=2.11.0

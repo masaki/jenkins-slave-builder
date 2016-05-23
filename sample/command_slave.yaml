@@ -1,0 +1,12 @@
+- slave:
+    name: cmdslave1
+    description: Command Slave Sample
+    executors: 5
+    remote_fs: /
+    labels:
+      - cmd
+      - slave
+    mode: normal
+    launcher:
+      type: Command
+      command: which java

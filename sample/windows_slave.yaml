@@ -1,0 +1,16 @@
+- slave:
+    name: windowsslave1
+    description: Windows Service Slave Sample
+    executors: 5
+    remote_fs: /
+    labels:
+      - windows
+      - slave
+    mode: normal
+    launcher:
+      type: Windows
+      user_name: windowsuser1
+      password: windowspass
+      host: 127.0.0.1
+      java_path:
+      vmargs:

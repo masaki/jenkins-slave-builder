@@ -1,0 +1,13 @@
+- slave:
+    name: jnlpslave1
+    description: JNLP Slave Sample
+    executors: 5
+    remote_fs: /
+    labels:
+      - jnlp
+      - slave
+    mode: normal
+    launcher:
+      type: JNLP
+      tunnel:
+      vmargs:
