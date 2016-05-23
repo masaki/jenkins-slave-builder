@@ -18,6 +18,8 @@ config = {
     'author': 'ikasam_a',
     'author_email': 'masaki.nakagawa@gmail.com',
 
+    'url': 'https://github.com/masaki/jenkins-slave-builder',
+
     'classifiers': [],
 
     'platforms': ['Any'],
